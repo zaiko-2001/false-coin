@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Staatliches&display=swap');
+body{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/FalseCoin.png") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white !important;
+}
+
+/* sec1 */
+.navbar .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.navbar-brand {
+    margin: 10px 20px;
+    font-family: "Figtree", sans-serif;
+    font-size: 20px !important;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white !important;
+}
+
+.navbar-brand:hover {
+    scale: 1.05;
+    animation: holographicText 5s infinite alternate;
+}
+
+@media (max-width: 768px) {
+    .navbar .container {
+        justify-content: space-between; 
+    }
+}
+
+
+
+
+
+ @keyframes parallaxEffect {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes holographicText {
+    0% { color: #37063d; text-shadow: 0 0 2px #37063d, 0 0 5px #37063d; }
+    50% { color: #ff00ff; text-shadow: 0 0 2px #ff00ff, 0 0 5px #ff00ff; }
+    100% { color: #37063d; text-shadow: 0 0 2px #37063d, 0 0 5px #37063d; }
+}
+
+
+.title {
+    padding-top: 150px;
+    animation: parallaxEffect 3s infinite ease-in-out, holographicText 4s infinite alternate;
+    font-weight: bold;
+    font-size: 60px;
+    color:white !important;
+
+}
+/* sec2 */
+.sec2{
+    width: 100%;
+}
+
+.sec2p{
+    font-family: "Figtree", sans-serif;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.sec2p2{
+    font-family: "Figtree", sans-serif;
+    margin-left: 120px;
+    font-size: 20px;
+    margin-bottom: 80px;
+
+}
+.sec2title{
+    margin-left: 50px;
+        color: white !important;
+    animation: holographicText 4s infinite alternate;
+}
+@media (max-width: 768px) {
+    .sec2p, .sec2p2, .sec2title {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        font-size: 18px; /* Opcional, ajusta el tamaño de fuente si lo necesitas */
+    }
+
+    .sec2p{
+        margin-top: 50px;
+    }
+
+    .sec2p2{
+        font-size: 18px;
+        margin-bottom: 40px; /* Ajusta el margen inferior */
+    }
+
+    .sec2title{
+        margin-left: 0;
+        font-size: 40px;
+    }
+}
+/* sec3 */
+.sec3title{
+color: white !important;
+animation: holographicText 4s infinite alternate;
+}
+.sec3p{
+    font-family: "Figtree", sans-serif;
+    font-size: 20px;
+}
+.btn-invest{
+    background-color: #9203a59c !important;
+    color:white !important;
+    font-family: "Figtree", sans-serif;
+    width: 20%;
+    border-radius: 4px;
+}
+.btn-invest:hover{
+    scale: 1.02;
+    transform: 1s;
+}
+/* sec5 */
+.roadmap-line {
+    width: 80%;
+    height: 10px;
+    margin: 0 auto;
+    animation: holographicText 4s infinite alternate;
+
+}
+
+.card {
+    margin: 10px;
+    border: transparent !important;
+    max-width: 450px; 
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-family: "Staatliches", sans-serif;
+    color: white !important;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: white;
+    font-family: "Figtree", sans-serif;
+
+}
+
+
+.shadow-lg {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    max-height: 300px; 
+    width: 100%; 
+    object-fit: cover; 
+   border-radius: 16px;
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.99)
+}
+/* sec6 */
+.title2 {
+    padding-top: 100px;
+    animation: parallaxEffect 3s infinite ease-in-out, holographicText 4s infinite alternate;
+    font-weight: bold;
+    font-size: 40px;
+    color:white !important;
+
+}
+/* sec7 */
+.form{
+    background: rgba(0, 0, 0, 0.6) !important;
+    border:none !important;
+    color: white !important;
+    font-family: "Figtree", sans-serif;
+
+}
+input::placeholder {
+    color: white !important; 
+    font-family: "Figtree", sans-serif;
+
+  }
+
+.btn-false{
+    margin-top: 15px;
+    background-color: #9203a552 !important;
+    color:white !important;
+    font-family: "Figtree", sans-serif;
+    width: 100%;
+}
+.btn-invest:hover{
+    scale: 1.02;
+    transform: 1s;
+}
